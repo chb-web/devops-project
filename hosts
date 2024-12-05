@@ -1,0 +1,13 @@
+[j-master]
+10.1.1.139
+
+[j-master:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/test.pem
+
+[j-node]
+10.1.1.201
+
+[j-node:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/opt/test.pem
